@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Tablas</title>
+</head>
+<body>
+    <h1>Generador de Tablas</h1>
+    <label for="numFilas">Número de Filas (1-100): </label>
+    <input type="number" id="numFilas" min="1" max="100">
+    <table id="tabla" border="">
+        <tr>
+            <th>Capital</th>
+            <th>País</th>
+            <th>Continente</th>
+        </tr>
+    </table>
+    <button id="generar" onclick="generarTabla()">
+        Generar Taula
+    </button>
+    <button id="limpiar" onclick="limpiarTabla()">
+        Limpiar Taula
+    </button>
+    <script src="capitales.js"></script>
+</body>
+</html>
